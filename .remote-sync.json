@@ -1,0 +1,20 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "lisbon.usc.edu",
+  "target": "/home/krsharma/mic_code",
+  "ignore": [
+    ".git/**",
+    "**/**.pyc",
+    "**/**.git/**",
+    "**/**.ipynb_checkpoints"
+  ],
+  "username": "krsharma",
+  "password": "krsharma",
+  "watch": [],
+  "transport": "scp"
+}
